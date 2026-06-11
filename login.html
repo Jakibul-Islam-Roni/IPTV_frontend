@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Premium Experience</title>
+    <meta name="description" content="Sign in to your account.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    
+    <main class="container">
+        <div class="glass-panel">
+            <header class="panel-header">
+                <h1>Welcome Back</h1>
+                <p>Sign in to continue to your dashboard.</p>
+            </header>
+            
+            <form id="loginForm" novalidate>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" required autocomplete="email">
+                    <label for="email">Email Address</label>
+                    <div class="error-message" id="emailError">Please enter a valid email</div>
+                </div>
+                
+                <div class="input-group">
+                    <input type="password" id="password" name="password" required autocomplete="current-password">
+                    <label for="password">Password</label>
+                    <button type="button" class="toggle-password" aria-label="Toggle password visibility">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="eye-icon"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    </button>
+                    <div class="error-message" id="passwordError">Please enter your password</div>
+                </div>
+
+                <div class="form-actions">
+                    <div style="display: flex; justify-content: flex-end; margin-bottom: 15px;">
+                        <a href="#" class="login-link" style="font-size: 0.85rem;">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        <span class="btn-text">Sign In</span>
+                        <div class="spinner"></div>
+                    </button>
+                </div>
+                
+                <p class="login-prompt">
+                    Don't have an account? <a href="index.html" class="login-link">Sign up</a>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
