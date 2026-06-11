@@ -3,7 +3,7 @@
 ![Platform Screenshot](./screenshot.png)
 
 ## Overview
-A state-of-the-art, YouTube-style web application designed for live IPTV and sports streaming. Built with modern web technologies, this platform natively plays `.m3u8` HLS streams directly in the browser, providing a seamless viewing experience. 
+A state-of-the-art, YouTube-style web application designed for live IPTV and sports streaming. Built with modern web technologies, this platform natively plays `.m3u8` HLS streams directly in the browser, providing a seamless viewing experience.
 
 The interface boasts a premium "Dark Mode" aesthetic with glassmorphism effects, dynamic CSS animations, and a responsive layout that adapts flawlessly to any screen size.
 
